@@ -47,11 +47,11 @@ Backend URL: http://localhost:5000
  ### API (Backend):
  
 
- - While in the `{localMachine}/SalesAnalyzer/API` directory:
+ - While in the `{localMachine}/RestaurantOrdering/API` directory:
 	 - `dotnet run watch`: starts and runs  the API
- - While in the `{localMachine}/SalesAnalyzer/UnitTests` directory:
+ - While in the `{localMachine}/RestaurantOrdering/Tests` directory:
 	 - `dotnet test`: runs unit tests
- - While in any directory besides the `client-app`:
+ - While in any directory:
 	 - `dotnet build`: builds project and all of its dependencies.
 
 ## Architectural & Design Considerations:
